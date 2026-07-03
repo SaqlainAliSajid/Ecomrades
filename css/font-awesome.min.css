@@ -1,0 +1,73 @@
+/* Local lightweight icon set for the Ecomrades site */
+.fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 Arial, sans-serif;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.fa:before {
+  display: inline-block;
+}
+
+.fa-user:before {
+  content: "\1F464";
+}
+
+.fa-search:before {
+  content: "\1F50D";
+}
+
+.fa-map-marker:before {
+  content: "\1F4CD";
+}
+
+.fa-phone:before {
+  content: "\260E";
+}
+
+.fa-envelope:before {
+  content: "\2709";
+}
+
+.fa-facebook:before {
+  content: "f";
+  font-weight: 700;
+  font-family: Georgia, serif;
+}
+
+.fa-twitter:before {
+  content: "t";
+  font-weight: 700;
+  font-family: Georgia, serif;
+}
+
+.fa-linkedin:before {
+  content: "in";
+  font-size: 0.8em;
+  font-weight: 700;
+  font-family: Arial, sans-serif;
+}
+
+.fa-instagram:before {
+  content: "ig";
+  font-size: 0.8em;
+  font-weight: 700;
+  font-family: Arial, sans-serif;
+}
+
+.fa-quote-left:before {
+  content: "\201C";
+  font-size: 1.2em;
+}
+
+.fa-angle-left:before {
+  content: "\2039";
+  font-size: 1.4em;
+}
+
+.fa-angle-right:before {
+  content: "\203A";
+  font-size: 1.4em;
+}
