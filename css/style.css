@@ -20,7 +20,7 @@
 }
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
   color: var(--text);
   background:
     radial-gradient(circle at top left, rgba(22, 182, 216, 0.08), transparent 24%),

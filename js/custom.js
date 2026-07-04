@@ -12,36 +12,6 @@ function getYear() {
 getYear();
 
 
-// client section owl carousel
-if ($(".client_owl-carousel").length && $.fn.owlCarousel) {
-    $(".client_owl-carousel").owlCarousel({
-        loop: true,
-        margin: 20,
-        dots: false,
-        nav: true,
-        navText: [],
-        autoplay: true,
-        autoplayHoverPause: true,
-        navText: [
-            '<i class="fa fa-angle-left" aria-hidden="true"></i>',
-            '<i class="fa fa-angle-right" aria-hidden="true"></i>'
-        ],
-        responsive: {
-            0: {
-                items: 1
-            },
-            600: {
-                items: 2
-            },
-            1000: {
-                items: 2
-            }
-        }
-    });
-}
-
-
-
 /** google_map js **/
 function myMap() {
     var mapElement = document.getElementById("googleMap");
