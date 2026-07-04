@@ -81,7 +81,7 @@ img {
   position: relative;
   font-weight: bold;
   margin-bottom: 0;
-  color: var(--navy-deep);
+  color: var(--accent);
   font-size: clamp(2rem, 3vw, 2.8rem);
   letter-spacing: -0.03em;
 }
